@@ -1,0 +1,10 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "modulePaths": [
+    "<rootDir>/app/",
+    "<rootDir>/app/components/"
+  ]
+}
