@@ -18,10 +18,10 @@ class Clock extends React.Component {
   }
 
   render () {
-    let {timeInSeconds} = this.props
+    let { timeInSeconds } = this.props
     return (
-      <div className="clock">
-        <span className="clock-text">
+      <div className='clock'>
+        <span className='clock-text'>
           {this.formatTime(timeInSeconds)}
         </span>
       </div>

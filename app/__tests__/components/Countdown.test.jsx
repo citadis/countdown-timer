@@ -7,12 +7,12 @@ import Countdown from 'Countdown'
 describe('Countdown', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Countdown/>, div)
+    ReactDOM.render(<Countdown />, div)
   })
 
   describe('handleSetCountdownTime', () => {
     it('should set countdown time and start countdown', (done) => {
-      const countdown = ReactTestUtils.renderIntoDocument(<Countdown/>)
+      const countdown = ReactTestUtils.renderIntoDocument(<Countdown />)
       countdown.handleSetCountdownTime(10)
 
       expect(countdown.state.count).toBe(10)
@@ -25,7 +25,7 @@ describe('Countdown', () => {
     })
 
     it('should never set countdown time to less than zero', (done) => {
-      const countdown = ReactTestUtils.renderIntoDocument(<Countdown/>)
+      const countdown = ReactTestUtils.renderIntoDocument(<Countdown />)
       countdown.handleSetCountdownTime(1)
 
       setTimeout(() => {

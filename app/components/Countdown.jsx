@@ -39,12 +39,12 @@ class Countdown extends React.Component {
   }
 
   render () {
-    let {count} = this.state
+    let { count } = this.state
 
     return (
       <div>
-        <Clock timeInSeconds={count}/>
-        <CountdownForm onSetCountdownTime={this.handleSetCountdownTime.bind(this)}/>
+        <Clock timeInSeconds={count} />
+        <CountdownForm onSetCountdownTime={this.handleSetCountdownTime.bind(this)} />
       </div>
     )
   }

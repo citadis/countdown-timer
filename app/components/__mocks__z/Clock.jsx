@@ -7,12 +7,12 @@ function formatTime (timeInSeconds) {
 }
 
 function render () {
-  let {timeInSeconds} = Clock.props
+  let { timeInSeconds } = Clock.props
   return (
-    <div className="clock">
-      <span className="clock-text">
+    <div className='clock'>
+      <span className='clock-text'>
         {this.formatTime(timeInSeconds)}
-        </span>
+      </span>
     </div>
   )
 }
