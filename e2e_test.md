@@ -26,6 +26,6 @@ To run your tests, execute:
 
 $ wdio wdio.conf.js
 
-* ../node_modules/.bin/selenium-standalone install
-* ../node_modules/.bin/selenium-standalone start
+* node_modules/.bin/selenium-standalone install
+* node_modules/.bin/selenium-standalone start
 * in package.json, add "e2e": "wdio e2e/wdio.conf.js"

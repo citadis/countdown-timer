@@ -4,6 +4,5 @@
 
 ```sh
 $ npm install
-$ webpack
 $ npm start
 ```
